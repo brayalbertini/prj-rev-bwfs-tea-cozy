@@ -1,0 +1,102 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: Black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* HEADER DIVIDER */
+
+.header {
+  margin: auto 10px;
+  display: flex;
+  border-bottom: 1px solid SeaShell;
+}
+
+.header img {
+  float: left;
+  height: 50px;
+}
+
+ul{
+  float: right;
+}
+
+li{
+  display: inline-block;
+  text-decoration: underline;
+  padding: 0px 15px 0px 15px;
+}
+
+/* MISSION DIVIDER */
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("TeaCozyBackground.jpg");
+}
+
+.mission_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: Black;
+}
+
+/* TEA OF THE MONTH DIVIDER */
+
+.featured {
+  width: 1000px;
+  text-align: center;
+}
+
+.featured_banner {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  margin: 10px;
+}
+
+.box img {
+  height: 200px;
+  width: 300px;
+}
+
+.box h4 {
+  text-align: center;
+}
+
+/* LOCATIONS DIVIDER */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("TeaCozyLocations.jpg");
+}
+
+.locations h2 {
+  text-align: center;
+}
+
+.square {
+  background-color: Black;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 15px 20px;
+}
+
+/* FOOTER DIVIDER */
+
+.footer {
+  text-align: center;
+}
+
+#copyright {
+  float: left;
+}
